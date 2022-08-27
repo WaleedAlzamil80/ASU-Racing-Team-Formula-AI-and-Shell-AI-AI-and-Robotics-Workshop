@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find my_smart_turtle)/yaml_file.yaml"/>
+    <node pkg="my_smart_turtle" type="coding_smart_turtle.py" name="Start1" output="screen"></node>
+</launch>
