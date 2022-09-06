@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find bicycle_model)/yaml_file.yaml"/>
+    <node pkg="bicycle_model" type="coding_bicycle_model.py" name="Start1" output="screen"></node>
+</launch>
